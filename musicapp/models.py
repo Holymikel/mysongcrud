@@ -9,7 +9,7 @@ class Song(models.Model):
     title = models.CharField(max_length=30)
     release_date = models.DateField()
     likes = models.CharField(max_length=30)
-    artiste_id = models.CharField(max_length=30
+    artiste_id = models.CharField(max_length=30)
    
 class Lyric(models.Model):
     content = models.CharField(max_length=30)
